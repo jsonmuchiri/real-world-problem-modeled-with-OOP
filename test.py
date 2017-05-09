@@ -8,3 +8,6 @@ class TestDrink(unittest.TestCase):
 
 	def test_cost_integer(self):
 		self.assertEqual(type(cost(23)), int)
+
+if __name__ = "__main__":
+	unittest.main()

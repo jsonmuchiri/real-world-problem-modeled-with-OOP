@@ -32,7 +32,3 @@ class CoffeWithMilk(Coffee):
 
 	def cost(self):
 		return super(CoffeWithMilk, self).cost + 10
-
-	
-		
-		
